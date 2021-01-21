@@ -6,14 +6,11 @@
     <div class="inner" style="margin-top:100px ; margin-left: 200px">
         <div class="row">
             <div class="col-lg-12" align="center" style="margin-right: 700px">
-                <h1> Sistema de Gestión de la Información DIRIN - PNP</h1>
+                <h1> REGISTRO DE VISITAS  DIRIN - PNP</h1>
             </div>
         </div>
         <hr>
-
-        <!-- InstanceBeginEditable name="EditRegion2" -->
-
-        <form class="form-horizontal" style="margin-top:100px ; margin-left: 300px; " action="citas_registro.php" method="POST" name="frmdocumentovisita"
+        <form class="form-horizontal" style="margin-top:30px ; margin-left: 500px; "  method="POST" name="frmdocumentovisita"
             id="frmdocumentovisita">
             <div class="form-group " >
                 <label class="control-label col-lg-4">TIPO</label>
@@ -40,10 +37,8 @@
                     <input class="form-control" type="hidden" name="estado" id="estado" value="1">
                 </div>
             </div>
-
             <div class="form-group" id="tipoPerson">
                 <label class="control-label col-lg-4">PERSONA</label>
-
                 <div class="col-lg-4">
                     <input class="form-control" type="hidden" name="solicitante" id="solicitante" value="31997791">
                     <input class="form-control" type="hidden" name="nrodni" id="nrodni" value="">
@@ -196,20 +191,15 @@
                     </select>
                 </div>
             </div>
-
-
             <div class="form-group">
                 <label class="control-label col-lg-4">FECHA </label>
-
                 <div class="col-lg-4">
                     <input type="date" id="fecha" name="fecha" class="form-control" placeholder="Fecha" required="">
                     <span class="fa fa-calendar txt-danger form-control-feedback"></span>
                 </div>
             </div>
-
             <div class="form-group">
                 <label class="control-label col-lg-4">HORA </label>
-
                 <div class="col-lg-4">
                     <div class="time_pick"><input type="text" id="hora" name="hora" value="" class="form-control"
                             required="">
@@ -234,32 +224,20 @@
                     </div>
                 </div>
             </div>
-
             <div class="form-group">
                 <label for="autosize" class="control-label col-lg-4">MOTIVO</label>
                 <div class="col-lg-4">
                     <select class="form-control" id="motivo" name="motivo" required="">
-
                         <option value="1">Reunión de comando</option>
-
                         <option value="2">Reunión con el proveedor</option>
-
                         <option value="3">Reunión para asesoria</option>
-
                         <option value="4">Citado por oficial de control</option>
-
                         <option value="5">Creación de usuario de Pi3</option>
-
                         <option value="6">Entrega de documentos</option>
-
                         <option value="7">Creación de usuarios SIDPOL o Reniec</option>
-
                         <option value="8">capacitacion o charlas</option>
-
                         <option value="9">Familiar y/o amistades</option>
-
                         <option value="10">Trabajo y Mantenimiento</option>
-
                         <option value="11">Abastecimiento/Mantenimiento</option>
                     </select>
                 </div>

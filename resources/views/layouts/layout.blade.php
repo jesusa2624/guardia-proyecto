@@ -292,7 +292,7 @@
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="{{url('/bandejavisitas')}}">BANDEJA DE VISITAS</a></li>
+                                    <li><a href="{{route('bandeja.visitas')}}">BANDEJA DE VISITAS</a></li>
                                     <li><a href="{{url('/registrarvisitas')}}">REGISTRAR VISITAS</a></li>
                                     <li><a href="{{url('/reportevisitas')}}">REPORTE VISITAS</a></li>
                                 </ul>

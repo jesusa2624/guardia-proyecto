@@ -18,9 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/bandejavisitas', function () {
-    return view('bandejavisitas');
-});
+Route::get('/bandejavisitas', 'VisitasController@index')->name('bandeja.visitas');
 
 Route::get('/registrarvisitas', function () {
     return view('registrarvisitas');
